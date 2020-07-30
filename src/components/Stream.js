@@ -3,7 +3,13 @@ import {TwitchEmbed} from "react-twitch-embed";
 
 export const Stream = () => (
     <div className="App-stream">
-        <TwitchEmbed channel={"typewriterfactory"} theme={"dark"} width={"100vw"} height={"90vh"}/>
+        <TwitchEmbed
+            channel={"typewriterfactory"}
+            theme={"dark"}
+            width={"100vw"}
+            height={"85vh"}
+            className={"mx-auto"}
+        />
 
     </div>
 )

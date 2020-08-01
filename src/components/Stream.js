@@ -6,8 +6,8 @@ export const Stream = () => (
         <TwitchEmbed
             channel={"typewriterfactory"}
             theme={"dark"}
-            width={"100vw"}
-            height={"85vh"}
+            width={"95vw"}
+            height={"95vh"}
             className={"mx-auto"}
         />
 

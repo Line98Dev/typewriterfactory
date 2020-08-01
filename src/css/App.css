@@ -4,31 +4,23 @@
   height: auto !important;
 }
 
-.App-stream .Navbar {
+.Twitter {
   align-content: center;
-  align-items: center;
 }
 
-.App-header {
-  display: inline;
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: #9147ff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::selection {
+  color: #fff;
+  background: #9147ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  color: #9147ff;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  color: #9147ff;
 }

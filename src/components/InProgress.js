@@ -6,7 +6,7 @@ export function InProgress() {
 
     if (show) {
         return (
-            <Alert variant="warning" onClose={() => setShow(false)} dismissible className={"text-center"}>
+            <Alert variant="warning" onClose={() => setShow(false)} dismissible className={"text-center mt-3"}>
                 This site is still in heavy development. <Alert.Link href="https://www.twitch.tv/typewriterfactory">Check
                 out Typewriter on Twitch</Alert.Link> for the best viewing experience for now.
             </Alert>

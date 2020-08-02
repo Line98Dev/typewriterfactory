@@ -7,7 +7,7 @@ export const Stream = () => (
             channel={"typewriterfactory"}
             theme={"dark"}
             width={"95vw"}
-            height={"95vh"}
+            height={"94vh"}
             className={"mx-auto"}
         />
 

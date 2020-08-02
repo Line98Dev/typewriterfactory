@@ -13,10 +13,11 @@ function App() {
                 <InProgress/>
             </Container>
             <Stream/>
+            <hr className={"d-none d-md-block my-4"} style={{backgroundColor: "#9147ff", maxWidth: "95vw"}}/>
             <Container fluid={"sm"}>
                 <Row className="Twitter">
-                    <Col sm={{ span: "auto", offset: 0, order: "last"}} lg={{ span: "auto", offset: 0, order: "first"}} >
-                        <TwitterFeed />
+                    <Col sm={{span: "auto", offset: 0, order: "last"}} lg={{span: "auto", offset: 0, order: "first"}}>
+                        <TwitterFeed/>
                     </Col>
                     <Col md="auto">
                         <About/>

@@ -24,6 +24,9 @@ export const NavMenu = () => (
                     className="d-inline-block align-top"
                 />
             </Navbar.Brand>
+            <Navbar.Text>
+                Streamer &bull; Memer &bull; Destroyer &bull; Road to Affiliate
+            </Navbar.Text>
             <Nav className="ml-auto">
                 <Nav.Link href="https://www.twitch.tv/typewriterfactory">Twitch</Nav.Link>
                 <Nav.Link href="https://twitter.com/Typewritergg">Twitter</Nav.Link>

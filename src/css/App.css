@@ -8,6 +8,16 @@
   align-content: center;
 }
 
+.navbar ::-moz-selection { /* Code for Firefox */
+  color: #9147ff;
+  background: #fff;
+}
+
+.navbar ::selection {
+  color: #9147ff;
+  background: #fff;
+}
+
 ::-moz-selection { /* Code for Firefox */
   color: #fff;
   background: #9147ff;
